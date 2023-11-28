@@ -9,7 +9,9 @@
  
 }
 .rectangle{
-  background-color: #D6E6FE;
+  background: linear-gradient(to right, #d6e6fe 20%, #d6e6fe 50%, #d6e6fe 75%, #d6e6fe 5%);
   width: 61.1125rem;
   height: 46.0625rem;
+  transform: translate(1.5rem,-0.0625rem);
+  border-radius: 25px;
 }

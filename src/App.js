@@ -1,16 +1,10 @@
 import "./App.css";
-import BodyMass from "./componets/BodyMass";
-import Navbar from "./componets/navbar";
+import Hero from "./componets/Hero/Hero";
 
 function App() {
   return (
     <>
-      <div className="hero">
-        <div className="rectangle">
-          <Navbar />
-          <BodyMass />
-        </div>
-      </div>
+      <Hero />
     </>
   );
 }
