@@ -1,6 +1,18 @@
-.Hero{
-    border: solid black;
-    width: 77rem;
-    height: 46.0625rem;
-    transform: translate(4.25rem,2rem);
+.Hero {
+  
+  width: 77rem;
+  height: 46.0625rem;
+  transform: translate(4.25rem, 2rem);
+  border-radius: 0px 0px 35px 35px;
+  
+}
+img {
+  width: 4rem;
+  height: 4rem;
+  transform: translate(8.75rem, 4.625rem);
+}
+.rectangle{
+  width: 61.125rem;
+  height: 61.41666rem;
+  background: var(--Gradient-1, linear-gradient(285deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 98.68%));
 }
