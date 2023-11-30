@@ -4,6 +4,8 @@
   height: 46.0625rem;
   transform: translate(4.25rem, 2rem);
   border-radius: 0px 0px 35px 35px;
+  position: relative;
+  border: solid;
   
 }
 img {
@@ -13,6 +15,8 @@ img {
 }
 .rectangle{
   width: 61.125rem;
-  height: 61.41666rem;
+  height: 46.0625rem;
   background: var(--Gradient-1, linear-gradient(285deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 98.68%));
+  border-radius: 0px 0px 35px 35px;
+
 }

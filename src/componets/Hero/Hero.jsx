@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import logo from "../../bmi-calculator/starter-code/assets/images/logo.svg";
 import Title from "./Title";
+import Calculator from "./Calculator";
 
 export default function Hero() {
   return (
@@ -11,6 +12,7 @@ export default function Hero() {
           <img src={logo} alt="logo" />
         </div>
         <Title />
+      <Calculator />
       </div>
     </div>
   );
